@@ -4,15 +4,19 @@
     "description":"Enables cascade mode by default while reading in tmo",
     "version": "1.0",
     "permissions": [
-        "tabs",
-        "webNavigation"
+        "tabs"
       ],
     "background": {
       "scripts": ["scripts/background.js"]
     },
     "browser_action": {
-        "default_icon": "assets/app_icon.png"
+        "default_icon": "assets/app_icon128.png"
     },
+    "icons": { 
+      "16": "assets/app_icon16.png",
+      "48": "assets/app_icon48.png",
+     "128": "assets/app_icon128.png"
+     },
     "_comment":"Icon provided by https://www.iconfinder.com/icons/4043233/anime_away_face_no_nobody_spirited_icon",
     "author":"AraDevs"
 }
